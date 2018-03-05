@@ -1,0 +1,524 @@
+body {padding-top: 50px;}
+a {text-decoration: none;color: inherit;}
+a:hover {color: inherit;}
+/* Debut NavBar */
+.navbar {
+	background-color: #1D1D1D;
+	max-height: 50px;
+}
+
+.navbar .navbar-brand {
+	color: crimson;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.navbar .navbar-brand:hover {
+	color: white;
+}
+
+.navbar .navbar-nav > li {
+	width: 110px;
+	transition: all .2s;
+}
+
+.navbar .navbar-nav > li:hover {
+	background-color: white;
+	color: black;
+	border-bottom: 4px solid crimson;
+}
+
+.navbar .navbar-nav li a {
+	color: white;
+	font-weight: bold;
+	font-size: 13.5px;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+.navbar .nav .dropdown-menu {
+	padding: 0px;
+	width: 150px;
+	background-color: #1D1D1D;
+	margin-top: 3px;
+	right: auto;
+	left: 0px;
+}
+
+.navbar .nav .dropdown-menu li {
+	color: white;
+	height: 40px;
+}
+
+.navbar .nav .dropdown-menu li a {
+	padding: 10px;
+	transition: all .3s;
+}
+
+.navbar .nav .dropdown-menu li a:hover {
+	color: black;
+	background-color: white;
+	border-left: 4px solid crimson;
+}
+/* Fin NavBar */
+
+/* Debut Carousel */
+
+.carousel1 .carousel-indicators li {
+	width: 12px;
+	height: 12px;
+	border: 2px solid white;
+}
+
+.carousel1 .carousel-indicators .active {
+	width: 14px;
+	height: 14px;
+	background-color: crimson;
+	border: 1px solid crimson;
+}
+
+.carousel1 .carousel-inner img {
+	height: 500px;
+	width: 100%
+}
+
+.carousel1 .carousel-inner h3 {
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.carousel1 .carousel-inner p {
+	font-family: 'Bree Serif', sans-serif;
+}
+
+.carousel1 .right i,
+.carousel1 .left i {
+	line-height: 500px;
+}
+
+/* Fin Carousel */
+
+/* Debut About Us */
+
+.about-us {
+	background-color: #D2E6EC;
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+.about-us .txt-about h1 {
+	font-family: 'Bree Serif', sans-serif;
+}
+
+.about-us .txt-about h1 img {
+	width: 120px;
+	padding-bottom: 15px;
+}
+
+.about-us .txt-about > p {
+	font-size: 18px;
+	line-height: 1.7;
+	padding-top: 10px;
+	padding-bottom: 60px;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+.about-us .txt-about .row {
+	padding-left: 100px;
+}
+
+.about-us .txt-about .row div {
+	color: #E2E2E2;
+	margin-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	border-radius: 7px;
+	width: 300px;
+	background-color: #1D1D1D;
+	border: 5px solid #444444;
+	transition: all .25s;
+}
+
+.about-us .txt-about .row div i {
+	transition: transform .25s;
+	
+}
+
+.about-us .txt-about .row div:hover {
+	background-color: #E62451;
+	color: black;
+	box-shadow: 0px 15px 20px rgba(0,0,0,.5);
+	cursor: pointer;
+	transform: scale(1.1,1.1);
+}
+
+.about-us .txt-about .row div:hover i {
+	animation: test .4s linear;
+	-webkit-animation: test .4s linear;
+}
+
+@-webkit-keyframes test {
+	0% {transform: scale(1,1) rotate(0deg);}
+	100% {transform: scale(1.25,1.25) rotate(360deg);}
+}
+
+.about-us .txt-about .row div:hover h3 {
+	font-weight: bold;
+}
+
+.about-us .txt-about .row div h3 {
+	font-family: 'Droid Sans', sans-serif;
+}
+
+.about-us .txt-about .row div p {
+	padding-top: 20px;
+	line-height: 1.8;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+}
+
+/* Fin About Us */
+
+/* Debut Profile */
+
+.profile {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: 'PT Sans', sans-serif;
+	border-bottom: 10px dashed #333333;
+}
+
+.profile .txt-profile h2 {
+	margin-top: 8px;
+	font-size: 45px;
+	font-family: 'Bree Serif', sans-serif;
+}
+
+.profile .txt-profile .ligne {
+	position: relative;
+	left: 526px;
+	background-color: #333333;
+	width: 80px;
+	height: 3px;
+	margin-top: 12px;
+}
+
+.profile .contenu-profile {
+	padding-top: 20px;
+}
+
+.profile .contenu-profile img {
+	width: 380px;
+	height: 380px;
+	border: 10px solid white;
+	box-shadow: 0px 0px .2px black;
+}
+
+.profile .contenu-profile .col-lg-8 {
+	padding-left: 35px;
+}
+
+.profile .contenu-profile .col-lg-8 h3 {
+	font-size: 27px;
+}
+
+.profile .contenu-profile .col-lg-8 .txt-creative {
+	font-family: 'Dancing Script', sans-serif;
+	font-size: 24px;
+}
+
+.profile .contenu-profile .col-lg-8 p {
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+.profile .contenu-profile .details {
+	padding-left: 40px;
+	font-size: 18px;
+}
+
+.profile .contenu-profile .details span {
+	font-weight: 700;
+}
+
+.profile .social-links {
+	margin-top: 30px;
+	margin-left: 250px;
+	padding-left: 25px;
+	background-color: #222222;
+	color: white;
+	width: 600px;
+	height: 70px;
+	line-height: 70px;
+	border: 1px dashed white;
+}
+
+.profile .social-links i {
+	margin-right: 25px;
+	cursor: pointer;
+	transition: all .1s;
+	line-height: 68px;
+	width: 65px;
+	height: 68px;
+}
+
+.profile .social-links i:hover {
+	background-color: crimson;
+	transform: scale(1.1,1.1);
+	color: white;
+}
+
+/* Fin Profile */
+
+/* Debut Testimonials */
+
+.testimonials {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.testimonials .txt-testimonials h2 {
+	margin-top: 8px;
+	font-size: 45px;
+	font-family: 'Bree Serif', sans-serif;
+}
+
+.testimonials .txt-testimonials .ligne {
+	position: relative;
+	left: 526px;
+	background-color: #333333;
+	width: 80px;
+	height: 3px;
+	margin-top: 12px;
+}
+
+.testimonials .txt-testimonials .txt-what {
+	font-family: 'Dancing Script', sans-serif;
+	font-size: 27px;
+	margin-top: 25px;
+}
+
+.testimonials .personnages {
+	padding-top: 40px;
+}
+
+.testimonials .personnages > div {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 40px;
+	width: 530px;
+	background-color: #333333;
+	color: white;
+	border-radius: 5px;
+	box-shadow: 0px 5px 0px gray;
+}
+
+.testimonials .personnages .media-object {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	border: 3px solid white;
+}
+
+.testimonials .personnages .media-body {
+	padding-left: 10px;
+}
+
+.testimonials .personnages .media-heading {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.testimonials .personnages .testimonial-name {
+	padding-top: 7px;
+	font-family: 'Dancing Script', sans-serif;
+	font-size: 23px;
+}
+
+.testimonials .personnages .link {
+	font-family: 'verdana', sans-serif;
+	font-size: 15px;
+}
+
+
+/* Fin Testimonials */
+
+/* Debut Contact Us */
+
+.contact-us {
+	padding-top: 40px;
+	padding-bottom: 60px;
+	background-color: rgba(0,0,0,.07);
+}
+
+.contact-us .txt-contact-us {
+	padding-bottom: 30px;
+}
+
+.contact-us .txt-contact-us h2 {
+	margin-top: 8px;
+	font-size: 45px;
+	font-family: 'Bree Serif', sans-serif;
+}
+
+.contact-us .txt-contact-us .ligne {
+	position: relative;
+	left: 526px;
+	background-color: #333333;
+	width: 80px;
+	height: 3px;
+	margin-top: 12px;
+}
+
+.contact-us .txt-contact-us .txt-if {
+	font-family: 'Dancing Script', sans-serif;
+	font-size: 27px;
+	margin-top: 25px;
+}
+
+.contact-us .formulaire input {
+	height: 38px;
+}
+
+.contact-us .formulaire textarea {
+	height: 150px;
+	max-width: 100%;
+	max-height: 150px;
+}
+
+.contact-us .formulaire input,
+.contact-us .formulaire textarea {
+	font-size: 14px;
+	font-family: 'Droid Sans', sans-serif;
+	border: 2px solid #333333;
+	background-color: rgba(0,0,0,0);
+	color: #333333;
+}
+
+.contact-us .formulaire input[type="submit"] {
+	background-color: #333333;
+	color: white;
+	transition: all .2s;
+}
+
+.contact-us .formulaire input[type="submit"]:hover {
+	background-color: white;
+	color: #333333;
+	font-weight: bold;
+}
+
+.contact-us .formulaire input:focus,
+.contact-us .formulaire textarea:focus {
+	border-color: crimson;
+	box-shadow: 0px 3px 8px rgba(0,0,0,.5);
+}
+
+.contact-us .map iframe {
+	border: 0;
+	width: 530px;
+	height: 362px;
+}
+
+/* Fin Contact Us */
+
+/* Debut Footer */
+
+.footer .footer-part1 {
+	background-color: #333333;
+}
+
+.footer .footer-part1 {
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+.footer .footer-part1 img {
+	width: 120px;
+}
+
+.footer .footer-part1 h2 {
+	margin-top: 30px;
+	color: white;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: bold;
+}
+
+.footer .footer-part1 .txt-email {
+	margin-top: 20px;
+	width: 400px;
+	height: 40px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	background-color: transparent;
+	border: 2px solid transparent;
+	border-bottom-color: white;
+	color: white;
+}
+
+.footer .footer-part1 .logo-mail {
+	width: 40px;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+
+.footer .footer-part1 ul {
+	margin-top: 55px;
+	margin-left: 100px;
+}
+
+.footer .footer-part1 ul li {
+	color: white;
+	float: left;
+	margin: auto 35px;
+	font-size: 12px;
+	font-family: 'Droid Sans', sans-serif;
+	cursor: pointer;
+	opacity: .7;
+}
+
+.footer .footer-part1 ul li:hover {
+	opacity: 1;
+}
+
+.footer .copyright {
+	padding-top: 6px;
+	background-color: #1D1D1D;
+	color: white;
+}
+
+.footer .copyright h5 {
+	color: #969696;
+	font-size: 12px;
+}
+
+/* Fin Footer */
+
+
+/* Debut btn scroll */
+
+.btnScroll {
+	padding-top: 4px;
+	width: 60px;
+	height: 50px;
+	background-color: white;
+	line-height: 40px;
+	font-weight: bold;
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	border-radius: 5px;
+	transition: background-color, color,box-shadow .3s;
+	box-shadow: 0px 6px 10px black;
+}
+
+.btnScroll:hover {
+	background-color: black;
+	color: crimson;
+	cursor: pointer;
+	box-shadow: 0px 6px 10px white;
+}
+
+/* Fin btn scroll */
